@@ -1,0 +1,3 @@
+C:\Users\apls\.CLion2017.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/e/#Programming/C&C++/Data-Structure/栈-LinkStack
+CMake Error: The source directory "/cygdrive/e/#Programming/C&C++/Data-Structure/鏍�-LinkStack" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
