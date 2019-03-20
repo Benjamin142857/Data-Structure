@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/#Programming/C&C++/Data-Structure/Stack-LinkStack/LinkStack.h
+malloc.h
+E:/#Programming/C&C++/Data-Structure/Stack-LinkStack/malloc.h
+
+E:/#Programming/C&C++/Data-Structure/Stack-LinkStack/main.c
+stdio.h
+-
+string.h
+-
+math.h
+-
+LinkStack.h
+E:/#Programming/C&C++/Data-Structure/Stack-LinkStack/LinkStack.h
+

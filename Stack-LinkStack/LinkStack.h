@@ -2,13 +2,34 @@
 // Created by Benjamin142857 on 3/17/2019.
 //
 
-#ifndef L2_LINKSTACK_FUNC_H
-#define L2_LINKSTACK_FUNC_H
+#ifndef L2_LINKSTACK_H
+#define L2_LINKSTACK_H
 
-#include "LinkStack_def.h"
 #include "malloc.h"
 
+/** Def ----------------------------------------------------   **/
+// 数据类型-名定义
+typedef char DataType;
+// 节点结构-定义
+struct  Node;
+// 节点结构-名定义
+typedef  struct  Node  *PNode;
+// 节点结构-内部定义
+struct  Node { 			/* 结点结构 */
+    DataType      info;
+    PNode         link;
+};
+// 链表栈-定义
+struct LinkStack
+{
+    PNode  top; /* 指向栈顶结点 */
+};
+// 链表栈-名定义
+typedef  struct LinkStack  *PLinkStack;
 
+
+
+/** Fun ----------------------------------------------------   **/
 // 创建结点
 PNode create_node(PNode next_p, DataType x) {
     // 1.定义指针
@@ -91,4 +112,4 @@ DataType get_top(PLinkStack pls) {
     }
 }
 
-#endif //L2_LINKSTACK_FUNC_H
+#endif //L2_LINKSTACK_H

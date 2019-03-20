@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include "LinkStack_func.h"
+#include "LinkStack.h"
 
 
 // 字符串-名定义
