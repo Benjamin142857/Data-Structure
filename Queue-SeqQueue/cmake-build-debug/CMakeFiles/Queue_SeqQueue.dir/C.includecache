@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/#Programming/C&C++/Data-Structure/Queue-SeqQueue/SeqQueue.h
+malloc.h
+E:/#Programming/C&C++/Data-Structure/Queue-SeqQueue/malloc.h
+
+E:/#Programming/C&C++/Data-Structure/Queue-SeqQueue/main.c
+stdio.h
+-
+SeqQueue.h
+E:/#Programming/C&C++/Data-Structure/Queue-SeqQueue/SeqQueue.h
+
