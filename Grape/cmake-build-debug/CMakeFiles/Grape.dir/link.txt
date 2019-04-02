@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Grape.dir/objects.a
+D:\Clion\mingw64\bin\ar.exe cr CMakeFiles\Grape.dir/objects.a @CMakeFiles\Grape.dir\objects1.rsp
+D:\Clion\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Grape.dir/objects.a -Wl,--no-whole-archive  -o Grape.exe -Wl,--out-implib,libGrape.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Grape.dir\linklibs.rsp

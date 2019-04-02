@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/#Programming/C&C++/Data-Structure/Grape/GrapeMartix.h
+malloc.h
+E:/#Programming/C&C++/Data-Structure/Grape/malloc.h
+
+E:/#Programming/C&C++/Data-Structure/Grape/main.c
+stdio.h
+-
+GrapeMartix.h
+E:/#Programming/C&C++/Data-Structure/Grape/GrapeMartix.h
+
